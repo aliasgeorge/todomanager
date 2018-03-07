@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16D32" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="ToDoEntity" representedClassName="ToDoEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="toDoCatagory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toDoDueDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="toDoFinishDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="toDoPriority" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="toDoStartDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="toDoStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toDoTitle" attributeType="String" minValueString="1" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ToDoEntity" positionX="-63" positionY="-18" width="128" height="150"/>
+    </elements>
+</model>
