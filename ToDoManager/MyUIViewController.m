@@ -111,6 +111,7 @@
         [formatter setDateFormat:@"yyyy-MM-dd"];
      //   NSString *startDate=[formatter dateFromString:date];
         self.localToDoEntity.toDoStartDate=date;
+        self.localToDoEntity.toDoPriority=[self.priorityField.text intValue];
         [self saveMyToDoEntity];
     }
 }
@@ -127,7 +128,7 @@
 }
 
 - (IBAction)priorityStepperClicked:(id)sender {
-    NSString *priority=[NSString stringWithFormat:@"%f",self.priorityStepper.value];
+    NSString *priority=[NSString stringWithFormat:@"%i",(int)self.priorityStepper.value];
     self.priorityField.text=priority;
 }
 
