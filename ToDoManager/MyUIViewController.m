@@ -122,6 +122,7 @@
 
 - (IBAction)trashTapped:(id)sender {
     self.wasDeleted =YES;
+    
     [self.managedObjectContext deleteObject:self.localToDoEntity];
     [self saveMyToDoEntity];
     [self.navigationController popToRootViewControllerAnimated:YES];
